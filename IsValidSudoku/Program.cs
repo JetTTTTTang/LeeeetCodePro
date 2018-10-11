@@ -61,6 +61,21 @@ namespace IsValidSudoku
     {
         static void Main(string[] args)
         {
+            char[,] board = new char[,]{
+                {'8', '3', '.', '.', '7', '.', '.', '.', '.'},
+                {'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+                {'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+                {'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+                {'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+                {'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+                {'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+                {'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+                {'.', '.', '.', '.', '8', '.', '.', '7', '9'},
+            };
+
+            Solution solution = new Solution();
+            Console.WriteLine(solution.IsValidSudoku(board));
+            Console.ReadKey();
         }
     }
 
@@ -68,7 +83,42 @@ namespace IsValidSudoku
     {
         public bool IsValidSudoku(char[,] board)
         {
+            for (int i = 0; i < board.GetLength(0); i++)
+            {
+                for (int j = 0; j < board.GetLength(1); j++)
+                {
+                    if (board[i, j] == '.') continue;
 
+                    for (int k = 0; k < board.GetLength(1); k++)
+                    {
+                        if (k == j) continue;
+
+                        if (board[i, j] == board[i, k])
+                            return false;
+                    }
+
+                    for (int k = 0; k < board.GetLength(0); k++)
+                    {
+                        if (k == i) continue;
+
+                        if (board[i, j] == board[k, j])
+                            return false;
+                    }
+
+                    for (int x = i / 3 * 3; x < i / 3 * 3 + 3; x++)
+                    {
+                        for (int y = j / 3 * 3; y < j / 3 * 3 + 3; y++)
+                        {
+                            if (x == i && y == j) continue;
+
+                            if (board[i, j] == board[x, y])
+                                return false;
+                        }
+                    }
+                }
+            }
+
+            return true;
         }
     }
 }
