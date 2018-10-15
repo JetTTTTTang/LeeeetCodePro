@@ -1,4 +1,4 @@
-# LeeeeetCodePro
+# LeetCodeProMix
 Some answers to leetcode's question
 
 
