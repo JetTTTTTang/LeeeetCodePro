@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrStr", "StrStr\StrStr.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountAndSay", "CountAndSay\CountAndSay.csproj", "{1443596B-A91E-4D68-B491-E162C3D68048}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{BEB3D01A-DF56-4F2F-BD97-B464011D6C8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{1443596B-A91E-4D68-B491-E162C3D68048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1443596B-A91E-4D68-B491-E162C3D68048}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1443596B-A91E-4D68-B491-E162C3D68048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB3D01A-DF56-4F2F-BD97-B464011D6C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB3D01A-DF56-4F2F-BD97-B464011D6C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB3D01A-DF56-4F2F-BD97-B464011D6C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB3D01A-DF56-4F2F-BD97-B464011D6C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
