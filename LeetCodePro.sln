@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAtoi", "MyAtoi\MyAtoi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrStr", "StrStr\StrStr.csproj", "{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountAndSay", "CountAndSay\CountAndSay.csproj", "{1443596B-A91E-4D68-B491-E162C3D68048}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1443596B-A91E-4D68-B491-E162C3D68048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1443596B-A91E-4D68-B491-E162C3D68048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1443596B-A91E-4D68-B491-E162C3D68048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1443596B-A91E-4D68-B491-E162C3D68048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
