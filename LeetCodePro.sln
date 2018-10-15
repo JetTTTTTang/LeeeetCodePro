@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsPalindrome", "IsPalindrom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAtoi", "MyAtoi\MyAtoi.csproj", "{DD4CF923-8ABE-451C-B34E-3A5E4FB0B25C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrStr", "StrStr\StrStr.csproj", "{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{DD4CF923-8ABE-451C-B34E-3A5E4FB0B25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD4CF923-8ABE-451C-B34E-3A5E4FB0B25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD4CF923-8ABE-451C-B34E-3A5E4FB0B25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E8EFCCA-60F4-42FB-91DB-0B6B3FA58FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
